@@ -1,0 +1,9 @@
+# Arquivos de objeto
+*.o
+*.obj
+
+# Executáveis (Linux e Unix costumam não ter extensão)
+a.out
+*.exe
+*.out
+*.elf
