@@ -7,3 +7,8 @@ a.out
 *.exe
 *.out
 *.elf
+
+# VS Code files
+.vscode/
+*.code-workspace
+settings.json
