@@ -1,27 +1,27 @@
-/*4. Qual será a impressão obtida por cada uma das seguintes instruções?
+/*4. Qual serï¿½ a impressï¿½o obtida por cada uma das seguintes instruï¿½ï¿½es?
 
 a) printf("\n\tBom dia! Shirley.").
-b) printf("Você já tomou café? \n");
-c) printf("\n\nA solução não existe! \nNão insista.");
-d) printf("Duas \tlinhas\tde\tsaída\nou\tuma?");
-e) printf("%s\n%s\n%s\n", "um", "dois", "três");
+b) printf("Vocï¿½ jï¿½ tomou cafï¿½? \n");
+c) printf("\n\nA soluï¿½ï¿½o nï¿½o existe! \nNï¿½o insista.");
+d) printf("Duas \tlinhas\tde\tsaï¿½da\nou\tuma?");
+e) printf("%s\n%s\n%s\n", "um", "dois", "trï¿½s");
 
 
-Solução:
+Soluï¿½ï¿½o:
 
 a)
 	Bom dia! Shirley.
-b)Você já tomou seu café?
+b)Vocï¿½ jï¿½ tomou seu cafï¿½?
 
 c)
 
-A solução não existe!
-Não insista.
-d)Duas	linhas	de	saída
+A soluï¿½ï¿½o nï¿½o existe!
+Nï¿½o insista.
+d)Duas	linhas	de	saï¿½da
 ou	uma?
 e)um
 dois
-três
+trï¿½s
 
-
+*/
 

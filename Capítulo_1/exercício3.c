@@ -4,16 +4,16 @@
 main()
 {
 	int a=1; b=2; c=3;
-	printf("Os números são: %d%d%d\n, a, b, c, d);
+	printf("Os nï¿½meros sï¿½o: %d%d%d\n, a, b, c, d);
 	system("pause");
 }
 
 
-Solução:
+Soluï¿½ï¿½o:
 
-1. Ao declarar mais de uma variável na mesma linha, as variáveis devem ser separadas por vírgula e não ponto e vírgula.
-2. Falta a declaração da variável b e o fechamento do parêntese da função printf.
-3. Falta a declaração do tipo da função main.
+1. Ao declarar mais de uma variï¿½vel na mesma linha, as variï¿½veis devem ser separadas por vï¿½rgula e nï¿½o ponto e vï¿½rgula.
+2. Falta a declaraï¿½ï¿½o da variï¿½vel b e o fechamento do parï¿½ntese da funï¿½ï¿½o printf.
+3. Falta a declaraï¿½ï¿½o do tipo da funï¿½ï¿½o main.
 
 
-
+*/
