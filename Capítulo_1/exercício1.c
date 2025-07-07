@@ -14,17 +14,12 @@ int Main{}
 )
 */
 
-//Solução:
+//Soluï¿½ï¿½o:
 
-int main() //Os parênteses e as chaves foram invertidos e a palavra reservada main estava com a inicial maiúscula.
+int main() //Os parï¿½nteses e as chaves foram invertidos e a palavra reservada main estava com a inicial maiï¿½scula.
 {
-	printf("Existem %d semanas no ano.", 52); //Foram adicionadas aspas.
-    //cout<<end1; <´-- Linha removida. Cout não é um comando de C.
-    system("PAUSE");
-    return 0;
-
-    system("pause"); 
-
+	printf("Existem %d semanas no ano.\n", 52); //Foram adicionadas aspas.
+    //cout<<end1; <ï¿½-- Linha removida. Cout nï¿½o ï¿½ um comando de C.
     return 0;
 }
 
