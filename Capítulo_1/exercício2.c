@@ -1,20 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
+/*2. O programa a seguir ï¿½ correto?
 
-
-//2. O programa a seguir é correto?
-
-
-/*
 main()
 {
 	printf("Linguagem C");
     system("pause"); 
 }
 
+Soluï¿½ï¿½o:
 
-Solução:
+O cï¿½digo nï¿½o ï¿½ correto. A funï¿½ï¿½o main nï¿½o tem um tipo definido e nï¿½o tem um valor de retorno (nï¿½o sendo uma funï¿½ï¿½o do tipo void)
+*/
 
-O código não é correto. A função main não tem um tipo definido e não tem um valor de retorno (não sendo uma função do tipo void)
-
-
+#include <stdio.h> // Biblioteca para a chamada de printf e getchar
+int main() // funÃ§Ã£o principal, por padrÃ£o deve ser do tipo int
+{
+	printf("Linguagem C\n"); // imprime sequencia de caracteres na tela (saida padrÃ£o)
+    getchar(); // system("pause");  opÃ§Ã£o linux para system-pause
+    return 0; // valor de retorno da funÃ§Ã£o principal, informa o SO que o programa executou com sucesso
+}
