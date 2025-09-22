@@ -1,4 +1,4 @@
-/*6. Qual é a saída do seguinte programa?
+/*6. Qual ï¿½ a saï¿½da do seguinte programa?
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,7 +12,7 @@ int main()
 }
 
 
-Solução:
+Soluï¿½ï¿½o:
 
 	""
 
