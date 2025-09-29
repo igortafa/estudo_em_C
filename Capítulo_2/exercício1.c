@@ -1,0 +1,1 @@
+/*Resposta: a e c*/

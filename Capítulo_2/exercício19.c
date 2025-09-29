@@ -1,21 +1,36 @@
+//NÃO CONCLUÍDO, EM ANDAMENTO
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(){
 
     //declaração de variáveis
-    int patos
+    int cabecas, pes, coelhos, patos;
+    
+
+    //Solicitando os dados para o usuário
+    printf("Insira o número de cabeças: ");
+    scanf("%d", &cabecas);
+    printf("Insira o número de pes: ");
+    scanf("%d", &pes);
 
 
-    //recebendo valores do usuário
-    printf("\nInsira a altura: ");
-    scanf("%f", &altura);
-    printf("\nInsira o raio: ");
-    scanf("%f", &raio);
- 
-    //cálculo de volume e impressão do resultado
-    vol = 3.141592 * raio * raio * altura;
-    printf("O volume é: %f", vol);
+    //Verifica o máximo e mínimo possível de pés
+    int maxPes = cabecas*4;
+    int minPes = cabecas*2;
+
+    if (maxPes < pes || minPes > pes){
+        printf("Quantidade de pes desproporcional!");
+    }else{
+    //Solução com base em sistemas de duas variáveis
+    coelhos = (pes-(cabecas*2))/2;
+    patos = cabecas-coelhos;
+
+    printf("\nO cercado tem %d coelhos e %d patos.\n", coelhos, patos);
+    }
+    
 
     return 0;
 }
